@@ -1,0 +1,11 @@
+C:\Users\jackson7\Desktop\Repos\C#\TreeHouse\2-CShaprOOP\game\game\bin\Debug\netcoreapp3.1\game.exe
+C:\Users\jackson7\Desktop\Repos\C#\TreeHouse\2-CShaprOOP\game\game\bin\Debug\netcoreapp3.1\game.deps.json
+C:\Users\jackson7\Desktop\Repos\C#\TreeHouse\2-CShaprOOP\game\game\bin\Debug\netcoreapp3.1\game.runtimeconfig.json
+C:\Users\jackson7\Desktop\Repos\C#\TreeHouse\2-CShaprOOP\game\game\bin\Debug\netcoreapp3.1\game.runtimeconfig.dev.json
+C:\Users\jackson7\Desktop\Repos\C#\TreeHouse\2-CShaprOOP\game\game\bin\Debug\netcoreapp3.1\game.dll
+C:\Users\jackson7\Desktop\Repos\C#\TreeHouse\2-CShaprOOP\game\game\bin\Debug\netcoreapp3.1\game.pdb
+C:\Users\jackson7\Desktop\Repos\C#\TreeHouse\2-CShaprOOP\game\game\obj\Debug\netcoreapp3.1\game.csprojAssemblyReference.cache
+C:\Users\jackson7\Desktop\Repos\C#\TreeHouse\2-CShaprOOP\game\game\obj\Debug\netcoreapp3.1\game.AssemblyInfoInputs.cache
+C:\Users\jackson7\Desktop\Repos\C#\TreeHouse\2-CShaprOOP\game\game\obj\Debug\netcoreapp3.1\game.AssemblyInfo.cs
+C:\Users\jackson7\Desktop\Repos\C#\TreeHouse\2-CShaprOOP\game\game\obj\Debug\netcoreapp3.1\game.dll
+C:\Users\jackson7\Desktop\Repos\C#\TreeHouse\2-CShaprOOP\game\game\obj\Debug\netcoreapp3.1\game.pdb
