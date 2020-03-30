@@ -6,7 +6,11 @@ namespace game
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Map map = new Map(8, 5);
+
+            int area = map.Width * map.Height;
+
+            Console.WriteLine(area);        
         }
     }
 }
