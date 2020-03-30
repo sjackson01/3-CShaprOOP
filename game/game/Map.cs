@@ -20,5 +20,31 @@ namespace game
             Height = height; 
 
         }
+
+
+        // Is the point on the map
+        // x >= 0 of x < 8
+        // y >= 0 or Y < 5 
+        public bool OnMap(Point point) 
+        {
+            // Simple way of checking 
+            bool inBounds = point.X >= 0 
+                            && point.X < Width
+                            && point.Y >= 0
+                            && point.Y < Height;
+
+            /* Check if out of bounds example 
+            bool outOfBounds = point.X < 0 
+                            || point.X >= Width 
+                            || point.Y < 0 
+                            || point.Y >= Height;
+
+            
+            inBounds = !outOfBounds; 
+            */
+
+
+            return inBounds; 
+        }
     }
 }
