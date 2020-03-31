@@ -8,9 +8,24 @@ namespace game
         {
             Map map = new Map(8, 5);
 
-            int area = map.Width * map.Height;
+            /*
+            // Create point
+            Point point = new Point(4, 2);
 
-            Console.WriteLine(area);        
+            // Check if point is on map 
+            bool isOnMap = map.OnMap(point);
+
+            Console.WriteLine(isOnMap);
+
+            point = new Point(8, 5);
+            isOnMap = map.OnMap(point);
+
+            Console.WriteLine(isOnMap);
+            */
+
+            Point point = new Point(4, 2);
+
+            Console.WriteLine(point.DistanceTo(5, 5));
         }
     }
 }
