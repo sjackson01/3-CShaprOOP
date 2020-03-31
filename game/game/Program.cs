@@ -8,6 +8,7 @@ namespace game
         {
             Map map = new Map(8, 5);
 
+            /*
             // Create point
             Point point = new Point(4, 2);
 
@@ -20,6 +21,11 @@ namespace game
             isOnMap = map.OnMap(point);
 
             Console.WriteLine(isOnMap);
+            */
+
+            Point point = new Point(4, 2);
+
+            Console.WriteLine(point.DistanceTo(5, 5));
         }
     }
 }
