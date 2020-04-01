@@ -8,24 +8,33 @@ namespace game
         {
             Map map = new Map(8, 5);
 
-            /*
-            // Create point
-            Point point = new Point(4, 2);
+            // Point parnet class MapLocation child class 
+            Point x = new MapLocation(4, 2);
 
-            // Check if point is on map 
-            bool isOnMap = map.OnMap(point);
+            Point p = x;
 
-            Console.WriteLine(isOnMap);
+            // Generic MapLocaiton object passed to map method 
+            map.OnMap(new MapLocation(1, 1));
 
-            point = new Point(8, 5);
-            isOnMap = map.OnMap(point);
+            // MapLocaiton objects calls point method
+            Console.WriteLine(x.DistanceTo(5, 5));
 
-            Console.WriteLine(isOnMap);
-            */
+            // See if MapLocation x is a MapLocaiton and Point
+            // It is because its a child 
+            Console.WriteLine(x is MapLocation);
+            Console.WriteLine(x is Point);
 
-            Point point = new Point(4, 2);
+            // Ses if Point point is MapLocation
+            Point point = new Point(0, 0);
 
-            Console.WriteLine(point.DistanceTo(5, 5));
+            // It isn't because its a paren 
+            Console.WriteLine(point is MapLocation);
+
+            Console.WriteLine("Hello, whats your name?");
+            string name = Console.ReadLine();
+            Console.WriteLine("Nice to meet you " + name + "!");
+            Console.ReadLine();
+
         }
     }
 }
