@@ -6,13 +6,19 @@ namespace game
 {
     class MapLocation : Point
     {
-        // Must pass information to the Point constructor. 
-        // Simply creating a kind of point.
-        // Any map locaiton object will also be a point object 
-        // becuse of the use of base.
-        public MapLocation(int x, int y) : base(x, y) 
+        // Constructor validate if point is on the map
+        // Give constructor instance of the map object
+        // This is done so we can check if map object is indeed on the map
+        public MapLocation(int x, int y, Map map) : base(x, y) 
         {
-        
+            // We want to do something if false so we use !
+            // If not on the map
+            if (!map.OnMap(this)) 
+            {   
+                // Throw an exception 
+                throw new System.Exception();
+            
+            }
         
         }
 
