@@ -9,3 +9,5 @@ C:\Users\jackson7\Desktop\Repos\C#\TreeHouse\2-CShaprOOP\game\game\obj\Debug\net
 C:\Users\jackson7\Desktop\Repos\C#\TreeHouse\2-CShaprOOP\game\game\obj\Debug\netcoreapp3.1\game.AssemblyInfo.cs
 C:\Users\jackson7\Desktop\Repos\C#\TreeHouse\2-CShaprOOP\game\game\obj\Debug\netcoreapp3.1\game.dll
 C:\Users\jackson7\Desktop\Repos\C#\TreeHouse\2-CShaprOOP\game\game\obj\Debug\netcoreapp3.1\game.pdb
+C:\Users\jackson7\Desktop\Repos\C#\TreeHouse\2-CShaprOOP\game\game\obj\Debug\netcoreapp3.1\game.csproj.CoreCompileInputs.cache
+C:\Users\jackson7\Desktop\Repos\C#\TreeHouse\2-CShaprOOP\game\game\obj\Debug\netcoreapp3.1\game.genruntimeconfig.cache

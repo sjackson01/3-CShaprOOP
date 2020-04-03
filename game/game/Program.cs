@@ -6,26 +6,28 @@ namespace game
     {
         static void Main(string[] args)
         {
+            // Create map location we know isn't on the map
             Map map = new Map(8, 5);
 
-            /*
-            // Create point
-            Point point = new Point(4, 2);
 
-            // Check if point is on map 
-            bool isOnMap = map.OnMap(point);
-
-            Console.WriteLine(isOnMap);
-
-            point = new Point(8, 5);
-            isOnMap = map.OnMap(point);
-
-            Console.WriteLine(isOnMap);
-            */
-
-            Point point = new Point(4, 2);
-
-            Console.WriteLine(point.DistanceTo(5, 5));
+            // When using multiple catch clauses place more specific types first 
+            try
+            {
+                MapLocation mapLocation = new MapLocation(20, 20, map);
+            }
+            catch (OutOfBoundsException ex)
+            {
+                Console.WriteLine(ex);
+            }
+            catch (TreeHouseDefenseException) 
+            {
+                Console.WriteLine("Unhandled tree house defense exception.");
+            }
+            // Create exception object to access the messeage in ex 
+            catch (Exception)
+            {
+                Console.WriteLine("Unhandled tree house defense exception.");
+            }
         }
     }
 }
