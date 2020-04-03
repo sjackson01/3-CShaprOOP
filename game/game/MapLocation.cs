@@ -16,7 +16,7 @@ namespace game
             if (!map.OnMap(this)) 
             {   
                 // Throw an exception 
-                throw new System.Exception();
+                throw new OutOfBoundsException(x + "," + y + " is outside of the bounds of the map.");
             
             }
         
